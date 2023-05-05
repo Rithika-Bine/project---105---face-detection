@@ -4,7 +4,7 @@ import cv2
 body_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
 
 # Initiate video capture for video file
-cap = cv2.VideoCapture('walkers.py')
+cap = cv2.VideoCapture('walking.avi')
 
 # Loop once video is successfully loaded
 while True:
